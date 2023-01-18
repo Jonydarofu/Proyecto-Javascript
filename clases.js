@@ -1,43 +1,40 @@
 if (provinciaIngresada == "Cordoba"){
     console.log ("Usted es de Cordoba, puede comprar productos")
 }
- /* Tenes 2 repos de git vinculados a las 2 carpetas
-tenes 1 .git en Proyecto-Javascript y otro .git en mi-repositorio 
-Voy a borrar el mi-repositorio 
-*/
+
 let IVA = 0.21
 console.log(IVA)
 
 //Precios productos del comercio
 let precioMilaPollo = 900
-let precioCONIVA = precioMilaPollo * IVA
-console.log(precioCONIVA)
-let precioFinal = precioMilaPollo + precioCONIVA
+let precioConIVA = precioMilaPollo * IVA
+console.log(precioConIVA)
+let precioFinal = precioMilaPollo + precioConIVA
 console.log(precioFinal) 
 
 let precioMilaPataMuslo = 900
-let precioCONIVA = precioMilaPataMuslo * IVA
-console.log(precioCONIVA)
-let precioFinal = precioMilaPataMuslo + precioCONIVA
+let precioConIVA = precioMilaPataMuslo * IVA
+console.log(precioConIVA)
+let precioFinal = precioMilaPataMuslo + precioConIVA
 console.log(precioFinal) 
 
 let precioPechugaPollo = 1200
-let precioCONIVA = precioPechugaPollo * IVA
-console.log(precioCONIVA)
-let precioFinal = precioPechugaPollo + precioCONIVA
+let precioConIVA = precioPechugaPollo * IVA
+console.log(precioConIVA)
+let precioFinal = precioPechugaPollo + precioConIVA
 console.log(precioFinal)
 
 
 let precioBifedePechuga = 1200
-let precioCONIVA = precioBifedePechuga * IVA
-console.log(precioCONIVA)
-let precioFinal = precioBifedePechuga + precioCONIVA
+let precioConIVA = precioBifedePechuga * IVA
+console.log(precioConIVA)
+let precioFinal = precioBifedePechuga + precioConIVA
 console.log(precioFinal)
 
 let precioPataMuslo = 450 
-let precioCONIVA = precioPataMuslo * IVA
-console.log(precioCONIVA)
-let precioFinal = precioPataMuslo + precioCONIVA
+let precioConIVA = precioPataMuslo * IVA
+console.log(precioConIVA)
+let precioFinal = precioPataMuslo + precioConIVA
 console.log(precioFinal)
 
 
