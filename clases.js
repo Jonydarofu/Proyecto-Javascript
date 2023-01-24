@@ -1,7 +1,21 @@
+let ciudad = parseInt(prompt("Por favor ingrese su ciudad"))
 if (provinciaIngresada == "Cordoba"){
     console.log ("Usted es de Cordoba, puede comprar productos")
+    alert("Cordoba")
 }
+ else{
+    console.log("Para poder ingresar ustede debe ser de Cordoba")
+    alert("Para poder ingresar usted debe ser de Cordoba")
+ }
 
+let metodoPago = true
+let optionPago = prompt(`Selecciona metodo de Pago
+    1- Efectivo
+    2- Tarjeta de Debito
+    3- Tarjeta de credito
+    4- Transferencia
+    0- Salir del Menu`)
+    
 let IVA = 0.21
 console.log(IVA)
 
@@ -10,32 +24,32 @@ let precioMilaPollo = 900
 let precioConIVA = precioMilaPollo * IVA
 console.log(precioConIVA)
 let precioFinal = precioMilaPollo + precioConIVA
-console.log(precioFinal) 
+console.log(precioFinalMilaPollo) 
 
 let precioMilaPataMuslo = 900
 let precioConIVA = precioMilaPataMuslo * IVA
 console.log(precioConIVA)
 let precioFinal = precioMilaPataMuslo + precioConIVA
-console.log(precioFinal) 
+console.log(precioFinalMilaPataMuslo) 
 
 let precioPechugaPollo = 1200
 let precioConIVA = precioPechugaPollo * IVA
 console.log(precioConIVA)
 let precioFinal = precioPechugaPollo + precioConIVA
-console.log(precioFinal)
+console.log(precioFinalPechugaPollo)
 
 
 let precioBifedePechuga = 1200
 let precioConIVA = precioBifedePechuga * IVA
 console.log(precioConIVA)
 let precioFinal = precioBifedePechuga + precioConIVA
-console.log(precioFinal)
+console.log(precioFinalBifedePechuga)
 
 let precioPataMuslo = 450 
 let precioConIVA = precioPataMuslo * IVA
 console.log(precioConIVA)
 let precioFinal = precioPataMuslo + precioConIVA
-console.log(precioFinal)
+console.log(precioFinalPataMuslo)
 
 
 console.log(0)
@@ -55,11 +69,11 @@ for(let index = 0;index <=20; index+2){
 
 }
 
-let numTabla = parseInt (prompt("Ingrese el num que desea la tabla de multiplicar"))
-console.log (numTabla)
-for(let i = 0; i<=10;i++){
-    console.log(`${numTabla} x ${i} = ${numTabla * i}`) 
-}
+//let numTabla = parseInt (prompt("Ingrese el num que desea la tabla de multiplicar"))
+//console.log (numTabla)
+//for(let i = 0; i<=10;i++){
+//    console.log(`${numTabla} x ${i} = ${numTabla * i}`) 
+//}
 
 //let cantidadNotas = parseInt(prompt ("Ingrese la cantidad de notas que desea ingresar"))
 //let total = 0
