@@ -15,82 +15,108 @@ let optionPago = prompt(`Selecciona metodo de Pago
     3- Tarjeta de credito
     4- Transferencia
     0- Salir del Menu`)
-    
+
 let IVA = 0.21
 console.log(IVA)
 
 //Precios productos del comercio
 let precioMilaPollo = 900
-let precioConIVA = precioMilaPollo * IVA
-console.log(precioConIVA)
-let precioFinal = precioMilaPollo + precioConIVA
+let precioConIVAMilaPollo = precioMilaPollo * IVA
+console.log(precioConIVAMilaPollo)
+let precioFinalMilaPollo = precioMilaPollo + precioConIVA
 console.log(precioFinalMilaPollo) 
 
 let precioMilaPataMuslo = 900
-let precioConIVA = precioMilaPataMuslo * IVA
-console.log(precioConIVA)
-let precioFinal = precioMilaPataMuslo + precioConIVA
+let precioConIVAMilaPataMuslo = precioMilaPataMuslo * IVA
+console.log(precioConIVAMilaPataMuslo)
+let precioFinalMilaPataMuslo = precioMilaPataMuslo + precioConIVA
 console.log(precioFinalMilaPataMuslo) 
 
 let precioPechugaPollo = 1200
-let precioConIVA = precioPechugaPollo * IVA
-console.log(precioConIVA)
-let precioFinal = precioPechugaPollo + precioConIVA
+let precioConIVAPechugaPollo = precioPechugaPollo * IVA
+console.log(precioConIVAPechugaPollo)
+let precioFinalPechugaPollo = precioPechugaPollo + precioConIVA
 console.log(precioFinalPechugaPollo)
 
 
 let precioBifedePechuga = 1200
-let precioConIVA = precioBifedePechuga * IVA
-console.log(precioConIVA)
-let precioFinal = precioBifedePechuga + precioConIVA
+let precioConIVABifedePechuga = precioBifedePechuga * IVA
+console.log(precioConIVABifedePechuga)
+let precioFinalBifedePechuga = precioBifedePechuga + precioConIVA
 console.log(precioFinalBifedePechuga)
 
 let precioPataMuslo = 450 
-let precioConIVA = precioPataMuslo * IVA
-console.log(precioConIVA)
-let precioFinal = precioPataMuslo + precioConIVA
+let precioConIVAPataMuslo = precioPataMuslo * IVA
+console.log(precioConIVAPataMuslo)
+let precioFinalPaataMuslo = precioPataMuslo + precioConIVA
 console.log(precioFinalPataMuslo)
 
+let salirMenu = true
+do{
+    let opcionMenu = prompt(`Ingrese la opción deseada
+    1 - Seleccion de Producto
+    2 - Borrar pedido
+    3 - Consultar catálogo
+    4 - Ordenar de mayor a menor por precio
+    5 - Buscar productos
+    0 - Salir del ménu`)
 
-console.log(0)
-console.log(1)
-console.log(2)
-console.log(3)
-console.log(4)
-console.log(5)
-console.log(6)
-console.log(7)
-console.log(8)
-console.log(9)
-console.log(10)
+    switch(opcionMenu){
+                 case "1":
+                     SelecciondeProducto()
+                 break
+                case "2":
+                     console.log("Borrar pedido")
+                 break
+                 case "3":
+                     console.log("Consultar")
+                 break
+                 case "4":
+                     console.log("Ordenar")
+                 break 
+                 case "5":
+                     console.log("Buscar")
+                 break
+                 case "0":
+                     console.log("Salir del menu")
+                     salirMenu = false
+                 break
+                 default:
+                     console.log("Opción no válida")
+                 break             
+             }
+         }while(salirMenu)
 
-for(let index = 0;index <=20; index+2){
-    console.log ("valor iteracion:" + index)
 
+//selleccion de productos
+switch(Productos){
+    Producto"1":
+    let addMilaPollo = parseInt(prompt("Cuantos kilos de MilaPollo desea agregar al carrito"))
+    precioMilaPollo = precioFinalMilaPollo * addMilaPollo
+    break
+
+    Producto"2":
+    let addMilaPataMuslo = parseInt(prompt("Cuantos kilos de MilaPataMuslo desea agregar al carrito"))
+    precioMilaPataMuslo = precioFinalMilaPataMuslo * addMilaPataMuslo
+    break
+
+    Producto"3":
+    let addPechugaPollo = parseInt(prompt("Cuantos kilos de PechugaPollo desea agregar al carrito"))
+    precioPechugaPollo = precioFinalPechugaPollo * addPechugaPollo
+    break
+
+    Producto"4":
+    let addBifedePechuga = parseInt(prompt("Cuantos kilos de BifedePechuga desea agregar al carrito"))
+    precioBifedePechuga = precioFinalBifedePechuga * addBifedePechuga
+    break
+
+    Producto"5":
+    let addPataMuslo = parseInt(prompt("Cuantos kilos de PataMuslo desea agregar al carrito"))
+    precioPataMuslo = precioFinalPataMuslo * addPataMuslo
+    break
+    
 }
 
-//let numTabla = parseInt (prompt("Ingrese el num que desea la tabla de multiplicar"))
-//console.log (numTabla)
-//for(let i = 0; i<=10;i++){
-//    console.log(`${numTabla} x ${i} = ${numTabla * i}`) 
-//}
+const arrayString = [ "Coca-Cola", "Sprite", "Fanta", "Fanta Limon", "Shoeppers", "Cepita Durazno"]
+console.log (arrayString)
 
-//let cantidadNotas = parseInt(prompt ("Ingrese la cantidad de notas que desea ingresar"))
-//let total = 0
-//for (let i = 1; i <= cantidadNotas; i++){
-//    let notas= pasrseInt(prompt(`Ingrese el valor de la nota n° ${i}`))
-//    console.log(nota)
-//    total = total + nota
- //   console.log (`total  parcial: ${total}`)  
-// }
-
-
-//let bandera = true 
-//while(bandera){
-//    let autor = prompt("Ingrese el nombre del autor")
-//    let libro = prompt("Ingrese nombre del libro")
-//     console.log(`El nombre del autor es ${autor} escribio el libro ${libro}`)
-//     let pregunta = prompt("Quiere seguir ingresando libros. ESC para cortar")
-//     if(pregunta.toUpperCase()=="ESC")
-//     bandera = false
-//}
