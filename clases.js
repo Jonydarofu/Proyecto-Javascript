@@ -62,26 +62,26 @@ do{
     0 - Salir del ménu`)
 
     switch(opcionMenu){
-                 case "1":
+                case "1":
                      SelecciondeProducto()
                  break
                 case "2":
                      console.log("Borrar pedido")
                  break
-                 case "3":
+                case "3":
                      console.log("Consultar")
                  break
-                 case "4":
+                case "4":
                      console.log("Ordenar")
                  break 
-                 case "5":
+                case "5":
                      console.log("Buscar")
                  break
-                 case "0":
+                case "0":
                      console.log("Salir del menu")
                      salirMenu = false
                  break
-                 default:
+                default:
                      console.log("Opción no válida")
                  break             
              }
@@ -117,6 +117,70 @@ switch(Productos){
     
 }
 
+function agregarProducto(){
+    let ProductoIngresado = prompt("Ingrese el nombre del producto")
+    let precioIngresado = parseInt(prompt("Ingrese el precio del producto"))
+    const ProductoIngresado = {
+        producto: ProductoIngresado,
+        precio: precioIngresado
+    }
+    console.log(ProductoIngresado)
+    mostrarDatosProducto(ProductoIngresado, precioIngresado)
+}
+
+function mostrarDatosProducto(producto, precio){
+    console.log(`El producto elegido es ${producto} y vale ${precio}`)   
+}
+
 const arrayString = [ "Coca-Cola", "Sprite", "Fanta", "Fanta Limon", "Shoeppers", "Cepita Durazno"]
 console.log (arrayString)
+
+console.log(arrayString[3])
+console.log(arrayString[0])
+
+arrayString.push("Ades", "Powerade")
+console.log(arrayString)
+arrayString.unshift("Coca Cola Zero")
+console.log(arrayString)
+
+arrayString.pop()
+arrayString.pop()
+arrayString.shift()
+console.log(arrayString)
+
+arrayString.splice(2,4)
+console.log(arrayString)
+
+console.log(arrayString.join(" - "))
+console.log(arrayString.join(" * "))
+
+function mostrarCatalogo(array){
+    console.log("Los Productos disponibles son:")
+    for(let elemento of array){
+        console.log(elemento.id, elemento.producto, elemento.precio)
+    }
+}
+
+function mostrarCatalogoForEach(arr){
+    console.log("Nuestro catalogo es con forEach")
+    arr.forEach(
+        (producto)=>{
+            console.log(`${producto.id} - que vale ${producto.precio}`)
+        }
+    )
+}
+
+function buscarporProducto(array){
+    let productoBuscado = prompt("Ingrese el nombre del producto que desea buscar")
+    let productoEncontrado = array.find(
+        (producto) => {return producto.producto == "MiladePollo"} 
+        (producto) => producto.producto.toLowerCase() == ProductoBuscado.toLowerCase() 
+    )
+    if(productoEncontrado == undefined){
+        console.log(`${productoBuscado} no se encuentra en nuestro stock`)
+    }else{
+        console.log(productoEncontrado)
+    }
+}
+
 
