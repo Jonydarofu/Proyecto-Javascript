@@ -84,27 +84,27 @@ console.log(precioConIVAPataMuslo)
 switch (Productos) {
     case "1":
         let addMilaPollo = parseInt(prompt("Cuantos kilos de MilaPollo desea agregar al carrito"))
-        precioMilaPollo = (/*agregar variable precio con iva*/ * addMilaPollo
+        precioMilaPollo = (precioConIVAMilaPollo * addMilaPollo)
         break
 
     case "2":
         let addMilaPataMuslo = parseInt(prompt("Cuantos kilos de MilaPataMuslo desea agregar al carrito"))
-        precioMilaPataMuslo = precioFinalMilaPataMuslo * addMilaPataMuslo
+        precioMilaPataMuslo = (precioConIVAMilaPataMuslo * addMilaPataMuslo)
         break
 
     case "3":
         let addPechugaPollo = parseInt(prompt("Cuantos kilos de PechugaPollo desea agregar al carrito"))
-        precioPechugaPollo = precioFinalPechugaPollo * addPechugaPollo
+        precioPechugaPollo = (precioConIVAPechugaPollo * addPechugaPollo)
         break
 
     case "4":
         let addBifedePechuga = parseInt(prompt("Cuantos kilos de BifedePechuga desea agregar al carrito"))
-        precioBifedePechuga = precioFinalBifedePechuga * addBifedePechuga
+        precioBifedePechuga = (precioConIVABifedePechuga * addBifedePechuga)
         break
 
     case "5":
         let addPataMuslo = parseInt(prompt("Cuantos kilos de PataMuslo desea agregar al carrito"))
-        precioPataMuslo = precioFinalPataMuslo * addPataMuslo
+        precioPataMuslo = (precioConIVAPataMuslo * addPataMuslo)
         break
         default:
             console.log("Opción no válida")
@@ -136,15 +136,15 @@ function mostrarDatosProducto(producto, precio) {
     console.log(`El producto elegido es ${producto} y vale ${precio}`)
 }
 
-const arrayString = ["Coca-Cola", "Sprite", "Fanta", "Fanta Limon", "Shoeppers", "Cepita Durazno"]
+const arrayString = ["Mila de Pechuga", "Mila de PataMuslo", "Pechuga de Pollo", "Bife de Pechuga", "Pata Muslo"]
 console.log(arrayString)
 
 console.log(arrayString[3])
 console.log(arrayString[0])
 
-arrayString.push("Ades", "Powerade")
+arrayString.push("Bife de Pata Muslo", "Milanesas Rellenas")
 console.log(arrayString)
-arrayString.unshift("Coca Cola Zero")
+arrayString.unshift("Pollo Entero")
 console.log(arrayString)
 
 arrayString.pop()
