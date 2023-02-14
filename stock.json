@@ -1,0 +1,61 @@
+[
+    {
+        "id": 1,
+        "nombre": "Mila de Pechuga",
+        "tipo": "Polleria",
+        "desc": "Producto fresco",
+        "precio": 900,
+        "img": "",
+        "cantidad":1 "kilo"
+    },
+    
+    {
+        "id": 2,
+        "nombre": "Mila de Pata Muslo",
+        "tipo": "Polleria",
+        "desc": "Producto fresco",
+        "precio": 900,
+        "img": "",
+        "cantidad":1 "kilo"
+    },
+    
+    {
+        "id": 3,
+        "nombre": "Pechuga",
+        "tipo": "Polleria",
+        "desc": "Personalizá tu manta",
+        "precio": 1200,
+        "img": "",
+        "cantidad":1 "kilo"
+    },
+    
+    {
+        "id": 4,
+        "nombre": "Bife de Pechuga",
+        "tipo": "Polleria",
+        "desc": "Producto fresco",
+        "precio": 1200,
+        "img": "./public/images/carpita.jpg",
+        "cantidad":1 "kilo"
+    },
+    
+    {
+        "id": 5,
+        "nombre": "Pata Muslo",
+        "tipo": "Polleria",
+        "desc": "Producto Fresco",
+        "precio": 450,
+        "img": "",
+        "cantidad":1
+    },
+    
+    {
+        "id": 6,
+        "nombre": "Pollo",
+        "tipo": "Polleria",
+        "desc": "Producto Fresco",
+        "precio": 450,
+        "img": "",
+        "cantidad":1
+    }
+    ]
