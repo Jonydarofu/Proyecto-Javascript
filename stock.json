@@ -6,7 +6,7 @@
         "desc": "Producto fresco",
         "precio": 900,
         "img": "",
-        "cantidad":1 "kilo"
+        "cantidad":1 
     },
     
     {
@@ -16,7 +16,7 @@
         "desc": "Producto fresco",
         "precio": 900,
         "img": "",
-        "cantidad":1 "kilo"
+        "cantidad":1 
     },
     
     {
@@ -25,8 +25,8 @@
         "tipo": "Polleria",
         "desc": "Personalizá tu manta",
         "precio": 1200,
-        "img": "",
-        "cantidad":1 "kilo"
+        "img": "./imagenes/pechugas.webp",
+        "cantidad":1 
     },
     
     {
@@ -36,7 +36,7 @@
         "desc": "Producto fresco",
         "precio": 1200,
         "img": "./public/images/carpita.jpg",
-        "cantidad":1 "kilo"
+        "cantidad":1 
     },
     
     {

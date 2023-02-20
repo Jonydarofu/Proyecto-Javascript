@@ -1,4 +1,4 @@
-// fetch
+// buscar
 const lista = document.querySelector('#listado')
 
  fetch('/data.json')
