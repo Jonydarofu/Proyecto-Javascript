@@ -17,7 +17,7 @@ const productos =
         tipo: "Polleria",
         desc: "Producto fresco",
         precio: 900,
-        img: "./public/Imagnes/Mila de pata muslo.jfif",
+        img: "/public/Imagnes/Miladepatamuslo.jfif",
         cantidad:1 
     },
     

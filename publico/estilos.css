@@ -25,16 +25,23 @@
   }
   
   h1 {
-    color: rgb(193, 213, 38);
+    color: rgb(25, 28, 3);
     text-transform: uppercase;
     font-weight: 200px;
     font-size: 25px;
     margin: 0;
   }
   
+  h4 {
+    color: rgb(25, 28, 3);
+    text-transform: uppercase;
+    font-weight: 200px;
+    font-size: 25px;
+    margin: 0;
+  }
   #cesta-carrito {
     border: none;
-    color: rgb(181, 183, 38);
+    color: rgb(114, 114, 112);
     font-size: 30px;
     background-color: white;
     border-radius: 50%;
@@ -44,8 +51,8 @@
   
   #cesta-carrito:hover {
     cursor: pointer;
-    color: rgb(237, 184, 184);
-    background-color: rgb(218, 230, 110);
+    color: rgb(100, 97, 97);
+    background-color: rgb(12, 12, 4);
   }
   
   #cesta-carrito:focus {
@@ -76,7 +83,7 @@
   select {
     display: inline;
     text-align: center;
-    border: 1px solid lightskyblue;
+    border: 1px solid rgb(103, 185, 236);
   }
   
   .modal-contenedor {
@@ -147,7 +154,7 @@
   }
   
   .productoEnCarrito {
-    border-left: 5px solid lightblue;
+    border-left: 5px solid rgb(25, 172, 221);
     border-bottom-left-radius: 3px;
     border-top-left-radius: 3px;
     margin: 5px 0;
@@ -176,12 +183,12 @@
   }
   
   footer {
-    background-color: #e57d77;
+    background-color: #e7635c;
     text-align: center;
   }
   header {
-    background-color: antiquewhite;
+    background-color: rgb(243, 155, 128);
   }
   body{
-    background-color: rgb(240, 240, 212);
+    background-color: rgb(245, 245, 238);
   }
