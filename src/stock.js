@@ -7,7 +7,7 @@ const productos =
         tipo: "Polleria",
         desc: "Producto fresco",
         precio: 900,
-        img: "./public/Imagenes/Milanesa de Pechuga.jfif",
+        img: "../public/Imagenes/Milanesa de Pechuga.jfif",
         cantidad:1 
     },
     
