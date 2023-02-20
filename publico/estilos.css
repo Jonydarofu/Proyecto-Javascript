@@ -52,7 +52,7 @@
   #cesta-carrito:hover {
     cursor: pointer;
     color: rgb(100, 97, 97);
-    background-color: rgb(12, 12, 4);
+    background-color: rgb(237, 32, 32);
   }
   
   #cesta-carrito:focus {
@@ -97,7 +97,7 @@
     transition: all .5s;
     opacity: 0;
     visibility: hidden;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(245, 22, 22, 0.776);
   }
   
   .modal-active {
@@ -114,7 +114,7 @@
     margin-top: -100%;
     transition: all .5s;
     border-radius: 10px;
-    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    box-shadow: rgba(223, 19, 19, 0.863) 0px 5px 15px 0px;
   }
   
   .modal-active .modal-carrito {
