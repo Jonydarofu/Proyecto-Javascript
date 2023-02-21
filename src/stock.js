@@ -7,7 +7,7 @@ const productos =
         tipo: "Polleria",
         desc: "Producto fresco",
         precio: 900,
-        img: "../public/Imagenes/Milanesa de Pechuga.jfif",
+        img: "./publico/Imagenes/MilanesaPechuga.jfif",
         cantidad:1 
     },
     
@@ -17,7 +17,7 @@ const productos =
         tipo: "Polleria",
         desc: "Producto fresco",
         precio: 900,
-        img: "/public/Imagnes/Miladepatamuslo.jfif",
+        img: "./publico/Imagenes/MilanesaPataMuslo.jfif",
         cantidad:1 
     },
     
@@ -27,7 +27,7 @@ const productos =
         tipo: "Polleria",
         desc: "Producto fresco",
         precio: 1200,
-        img: "./public/Imagenes/pechugas.webp",
+        img: "./publico/Imagenes/pechugas.webp",
         cantidad:1 
     },
     
@@ -37,7 +37,7 @@ const productos =
         tipo: "Polleria",
         desc: "Producto fresco",
         precio: 1200,
-        img: "./public/Imagenes/Bifes de Pechuga.jfif",
+        img: "./publico/Imagenes/BifesPechuga.jfif",
         cantidad:1 
     },
     
@@ -47,7 +47,7 @@ const productos =
         tipo: "Polleria",
         desc: "Producto Fresco",
         precio: 450,
-        img: "./public/Imagenes/Pata muslo.jfif",
+        img: "./publico/Imagenes/Patamuslo.jfif",
         cantidad:1
     },
     
@@ -57,7 +57,7 @@ const productos =
         tipo: "Polleria",
         desc: "Producto Fresco",
         precio: 450,
-        img: "./public/Pollo.jfif",
+        img: "./publico/Imagenes/pollo.jfif",
         cantidad:1
     }
     ]

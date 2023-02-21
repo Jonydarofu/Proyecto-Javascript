@@ -5,7 +5,7 @@
         "tipo": "Polleria",
         "desc": "Producto fresco",
         "precio": 900,
-        "img": "",
+        "img": "./publico/Imagenes/MilanesaPechuga.jfif",
         "cantidad":1 
     },
     
@@ -15,7 +15,7 @@
         "tipo": "Polleria",
         "desc": "Producto fresco",
         "precio": 900,
-        "img": "",
+        "img": "./publico/Imagenes/MilanesaPataMuslo.jfif",
         "cantidad":1 
     },
     
@@ -25,7 +25,7 @@
         "tipo": "Polleria",
         "desc": "Personalizá tu manta",
         "precio": 1200,
-        "img": "./imagenes/pechugas.webp",
+        "img": "./publico/Imagenes/pechugas.webp",
         "cantidad":1 
     },
     
@@ -35,7 +35,7 @@
         "tipo": "Polleria",
         "desc": "Producto fresco",
         "precio": 1200,
-        "img": "./public/images/carpita.jpg",
+        "img": "./publico/Imagenes/BifesPechuga.jfif",
         "cantidad":1 
     },
     
@@ -45,7 +45,7 @@
         "tipo": "Polleria",
         "desc": "Producto Fresco",
         "precio": 450,
-        "img": "",
+        "img": "./publico/Imagenes/Patamuslo.jfif",
         "cantidad":1
     },
     
@@ -55,7 +55,7 @@
         "tipo": "Polleria",
         "desc": "Producto Fresco",
         "precio": 450,
-        "img": "",
+        "img": "./publico/Imagenes/pollo.jfif",
         "cantidad":1
     }
     ]
